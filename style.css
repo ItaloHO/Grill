@@ -1,0 +1,60 @@
+@import url();
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F4F2DE;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 1% 0% 1% 13%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho__menu__links {
+    font-family: Impact, fantasy;
+    color: #E86A33;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    
+}
+
+.cardapio__pratos {
+    padding: 5% 0% 0% 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: self-start;
+    text-align: center;
+}
+
+.com__fome {
+    color: #272829;
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.rodape {
+    padding: 24px;
+    background-color: #E86A33;
+    font-size: 28PX;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
